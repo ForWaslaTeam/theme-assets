@@ -1,0 +1,103 @@
+/*
+store : https://lilyweisa.com/
+*/
+
+@media (min-width: 1024px) {
+  #app > div.app-inner.flex.flex-col.min-h-full.overflow-x-hidden > footer > div.store-footer__inner > div > div > div.lg\:col-span-6.rtl\:lg\:pl-20.ltr\:lg\:pr-20.flex.flex-col.justify-center.items-center.py-6.gap-2 {
+    grid-column: span 2 / span 6 !important;
+  }
+}
+
+@media (min-width: 100px) {
+  .s-product-card-entry .s-product-card-content-footer .s-button-btn {
+    background-color: var(--color-primary) !important;
+    fill: var(--color-primary) !important;
+    color: white !important;
+  }
+
+  .s-product-card-entry .s-product-card-full-image .s-product-card-content,
+  custom-salla-product-card:first-of-type .s-product-card-content {
+    padding-left: 2.5rem !important;
+    padding-right: 2.5rem !important;
+    padding-top: 6rem !important;
+    padding-bottom: 6rem !important;
+  }
+
+  .s-product-card-full-image salla-add-product-button {
+    background-color: unset !important;
+  }
+
+  .s-block--photos-slider,
+  .s-block--photos-slider salla-slider,
+  .s-block--photos-slider .swiper-slide,
+  .s-block--photos-slider img {
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width: unset !important;
+  }
+
+  .s-block--photos-slider div.swiper.s-slider-container.swiper-initialized.swiper-horizontal.swiper-rtl.swiper-ios.swiper-backface-hidden {
+    padding-right: unset !important;
+    padding-left: unset !important;
+  }
+
+  #app > div.app-inner.flex.flex-col.min-h-full.overflow-x-hidden > section.s-block.s-block--fixed-banner.wide-placeholder {
+    margin-top: unset !important;
+  }
+
+  #app > div.app-inner.flex.flex-col.min-h-full.overflow-x-hidden > section.s-block.s-block--fixed-banner.wide-placeholder .container {
+    max-width: unset !important;
+    margin-right: unset !important;
+    margin-left: unset !important;
+    padding-right: unset !important;
+    padding-left: unset !important;
+  }
+
+  .s-product-options-grid-mode label .s-product-options-grid-mode-span {
+    transition: 0.3s;
+    padding: 10px 20px !important;
+    min-width: 60px !important;
+    text-align: center !important;
+  }
+
+  .s-product-options-grid-mode-span {
+    font-size: 16px !important;
+    font-weight: 600 !important;
+  }
+
+  .s-product-options-grid-mode input:checked + div {
+    background-color: #000 !important;
+    color: #fff !important;
+  }
+
+  .concept-main-content .s-add-product-button-main salla-button .s-button-btn {
+    background: #000 !important;
+    color: #fff !important;
+    border: 1px solid #000 !important;
+    border-radius: 0 !important;
+    transition: none !important;
+  }
+
+  .concept-main-content .s-add-product-button-main salla-button .s-button-btn:hover {
+    background: #000 !important;
+    color: #fff !important;
+    border-color: #000 !important;
+  }
+
+  .concept-main-content .s-add-product-button-main .s-add-product-button-mini-checkout {
+    --salla-fast-checkout-button-border-radius: 0px !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .s-product-options-option {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+  }
+
+  .s-product-options-option-content {
+    width: 100% !important;
+    margin-top: 0px !important;
+  }
+}
