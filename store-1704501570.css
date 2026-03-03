@@ -15,8 +15,7 @@ store : https://lilyweisa.com/
     color: white !important;
   }
 
-  .s-product-card-entry .s-product-card-full-image .s-product-card-content,
-  custom-salla-product-card:first-of-type .s-product-card-content {
+  .s-product-card-entry .s-product-card-full-image .s-product-card-content {
     padding-left: 2.5rem !important;
     padding-right: 2.5rem !important;
     padding-top: 6rem !important;
@@ -100,4 +99,12 @@ store : https://lilyweisa.com/
     width: 100% !important;
     margin-top: 0px !important;
   }
+}
+.s-product-card-entry .s-product-card-content .s-product-card-content-title{
+	height: 3.5rem !important;
+	overflow: hidden !important;
+}
+
+.s-product-card-entry .s-product-card-image img{
+	aspect-ratio: 1/1 !important;
 }
