@@ -108,3 +108,11 @@ store : https://lilyweisa.com/
 .s-product-card-entry .s-product-card-image img{
 	aspect-ratio: 1/1 !important;
 }
+
+body .s-product-card-entry .s-product-card-promotion-title{
+	     margin: unset !important; 
+     border-radius: unset !important; 
+        padding: 0.525rem !important;
+  
+}
+
