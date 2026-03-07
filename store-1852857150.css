@@ -50,4 +50,7 @@ salla-breadcrumb.hydrated ,.sahm-main-content.main-content.top-24.w-full > div.m
 .cart  section > div > div.border-t.border-b.border-gray-200.py-3.mt-5.flex.gap-8.justify-between.items-center > p{
  	color: var(--main-text-color) !important;
  }
-
+@media only screen and (max-width: 1024px) {
+   #mobile-menu li ul.mm-spn--open a{
+       color: inherit !important;
+}}
