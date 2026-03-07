@@ -42,7 +42,7 @@ section.sticky-product-bar.bg-white{
 }}
 
 
-nav.breadcrumbs.w-full.py-5 *,.s-breadcrumb-arrow svg,i.sicon-barcode.mx-1,.text-unicode,.sahm-main-content.main-contenttop-24.w-full > div.mb-4.flex.justify-between.py-2 > div.flex.items-center,.sahm-main-content.main-content.top-24.w-full > div.mb-4.flex.justify-between.py-2{
+salla-breadcrumb.hydrated ,.sahm-main-content.main-content.top-24.w-full > div.mb-4.flex.justify-between.py-2{
 	color: var(--color-primary) !important;
 	fill: var(--color-primary) !important;
 }
