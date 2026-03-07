@@ -1,0 +1,42 @@
+/*
+متجر المورد 
+ 	store : https://almowarred.com/
+*/
+.s-slider-block__title .s-slider-block__title-right h2 {
+	color: var(--color-primary) !important;
+}
+
+salla-installment.hydrated .mb-5 
+{
+    background-color: #fff !important;
+}
+
+
+body .s-fast-checkout-button.outline,body .s-fast-checkout-button,.sahm-main-content .s-add-product-button-main .s-add-product-button-mini-checkout{
+	    background-color: var(--color-btn-single-product) !important;
+	    color:  var(--color-primary) !important;
+	    border: unset !important;
+	        --salla-fast-checkout-button-border-radius: 0px !important;
+	        padding-bottom: unset !important;
+}
+
+.sahm-main-content .s-add-product-button-main>salla-button button {
+    border-radius: unset !important;
+}
+.s-product-card-entry .s-product-card-image{
+	    flex: 1 1 0% !important;
+}
+.s-product-card-entry .s-product-card-image{
+	  height: unset !important;
+	  max-height: unset !important;
+}
+
+.s-product-card-image img{
+	aspect-ratio: 6/6 !important;
+}
+
+
+@media(min-width: 768px){
+section.sticky-product-bar.bg-white{
+	padding: 1.3rem !important;
+}}
