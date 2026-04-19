@@ -1,0 +1,11 @@
+.sokar-category-card .absolute.inset-0 {
+  position: static !important;
+  background: none !important;
+  padding: 5px !important;
+  text-align: center !important;
+}
+@media (max-width: 768px) {
+    .sokar-hero-banner-countdown {
+        min-height: 60vh !important;
+    }
+}
