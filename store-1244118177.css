@@ -2,4 +2,11 @@
 	.s-multiple-bundle-product-slide-one-third {
 		max-width: 200px !important;
 	}
+
+	
+.s-accordion-body-wrapper[data-collapsed=false] {
+min-height: 200px !important;
 }
+	
+}
+
