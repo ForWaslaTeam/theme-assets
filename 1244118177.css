@@ -1,0 +1,5 @@
+@media (max-width: 768px) {
+	.s-multiple-bundle-product-slide-one-third {
+		max-width: 200px !important;
+	}
+}
