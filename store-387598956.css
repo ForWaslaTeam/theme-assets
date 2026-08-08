@@ -1,12 +1,12 @@
 @media(min-width: 768px){
 	.concept-video{
-		height: 75vh !important;
+		height: 90vh !important;
 	}
 }
 
 @media(max-width: 1024px){
 #app > div.app-inner.flex.flex-col.min-h-full.overflow-x-hidden > div.concept-video.py-5.w-full.relative.bg-no-repeat.bg-center.bg-cover.bg-origin-border.overflow-hidden.block.block{
-	    max-height: 75vh !important;
+	    max-height: 90vh !important;
 
 }
 
