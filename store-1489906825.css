@@ -1,0 +1,19 @@
+.copyright-text p,
+.copyright-text span,
+.copyright-text *,
+.copyright-text p a
+
+{
+    font-size: 0 !important;
+}
+
+.copyright-text p::before {
+    content: "الحقوق محفوظة | علامة أزياء سمار ";
+    font-size: 14px;
+    
+}
+
+
+html[dir="ltr"] .copyright-text p::before {
+    content: "All Rights Reserved | SMAAR LABEL ";
+}
