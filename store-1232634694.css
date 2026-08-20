@@ -1,0 +1,5 @@
+body .jawhara-tabs-produtcs .tabs .tab-trigger.is-active button,
+body .jawhara-tabs-produtcs .tabs .tab-trigger:hover button
+{
+	background-color: #f0f7ea !important;
+}
