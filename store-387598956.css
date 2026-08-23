@@ -98,4 +98,17 @@ right: 40% !important;
 }
 
 
+@media(max-width: 768px){
+
+#app > div.app-inner.flex.flex-col.min-h-full.overflow-x-hidden > section.concept-text-with-photo.my-5.block.block{
+	margin-top: 6rem !important;
+}
+ .concept-text-with-photo.my-5.block.block > div > div > div.flex.justify-center.items-center.text-center.flex-col.gap-2.w-full.h-full {
+position: absolute !important;
+top: 9rem !important;
+left: 0 !important;
+height: 3rem !important;
+}
+}
+
 
