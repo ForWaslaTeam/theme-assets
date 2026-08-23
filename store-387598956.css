@@ -82,3 +82,20 @@ order: 2 !important;
 }
 
 }
+
+
+@media(max-width: 768px){
+
+#mainnav > div > div > div > div.flex.items-center.justify-end.gap-2 > a{
+position: absolute !important;
+right: 0.8rem !important;
+}
+#mainnav > div > div > div > div:nth-child(1) > a{
+position: absolute !important;
+right: 40% !important;
+
+}
+}
+
+
+
