@@ -86,7 +86,7 @@ order: 2 !important;
 
 @media(max-width: 768px){
 
-#mainnav > div > div > div > div.flex.items-center.justify-end.gap-2 > a{
+/* #mainnav > div > div > div > div.flex.items-center.justify-end.gap-2 > a{
 position: absolute !important;
 right: 0.8rem !important;
 }
@@ -94,7 +94,7 @@ right: 0.8rem !important;
 position: absolute !important;
 right: 40% !important;
 
-}
+} */
 }
 
 
