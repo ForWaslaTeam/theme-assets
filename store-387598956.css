@@ -117,7 +117,7 @@ footer .store-footer__inner > div > div{
 margin-bottom: 0 !important;
 margin-top: 0 !important;
 }
-.s-contacts-list-vertical {
+.s-contacts-list-vertical  ,  footer > div.store-footer__inner > div > div > div:nth-child(2) > salla-menu  {
 display: flex !important;
 flex-direction: row !important;
 justify-content: center !important;
