@@ -1,3 +1,49 @@
+@media(min-width: 768px){
+.concept-video{
+height: 90vh !important;
+max-height: 90vh !important;
+}
+}
+@media(max-width: 768px){
+.concept-video{
+height: unset !important;
+max-height: unset !important;
+}
+}
+
+#app > div.app-inner.flex.flex-col.min-h-full.overflow-x-hidden > section.concept-categories.mt-20.mb-4.block.block{
+margin-top: 1rem !important;
+}
+
+.concept-top-navbar{
+display: none !important;
+}
+.concept-main-nav-container{
+background: #AF4E8B !important;
+}
+.concept-main-nav-container custom-main-menu .main-menu a:hover span{
+color: white !important;
+}
+
+#app > div.app-inner.flex.flex-col.min-h-full.overflow-x-hidden > section.concept-text-with-photo.my-5.block.block > div{
+width: 100% !important;
+max-width: 100% !important;
+}
+
+@media(max-width: 768px){
+#app > div.app-inner.flex.flex-col.min-h-full.overflow-x-hidden > section.concept-text-with-photo.my-5.block.block{
+margin-top: 6rem !important;
+position: relative !important;
+}
+.concept-text-with-photo.my-5.block.block > div > div > div.flex.justify-center.items-center.text-center.flex-col.gap-2.w-full.h-full {
+position: absolute !important;
+top: 25% !important;
+left: 0 !important;
+width: 100% !important;
+transform: translateY(-50%) !important;
+}
+}
+
 .concept-store-footer.store-footer,
 .concept-store-footer .store-footer__inner,
 .concept-store-footer .py-4.text-center {
