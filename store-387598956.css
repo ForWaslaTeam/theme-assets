@@ -1,53 +1,7 @@
-@media(min-width: 768px){
-.concept-video{
-height: 90vh !important;
-max-height: 90vh !important;
-}
-}
-@media(max-width: 768px){
-.concept-video{
-height: unset !important;
-max-height: unset !important;
-}
-}
-
-#app > div.app-inner.flex.flex-col.min-h-full.overflow-x-hidden > section.concept-categories.mt-20.mb-4.block.block{
-margin-top: 1rem !important;
-}
-
-.concept-top-navbar{
-display: none !important;
-}
-.concept-main-nav-container{
-background: #AF4E8B !important;
-}
-.concept-main-nav-container custom-main-menu .main-menu a:hover span{
-color: white !important;
-}
-
-#app > div.app-inner.flex.flex-col.min-h-full.overflow-x-hidden > section.concept-text-with-photo.my-5.block.block > div{
-width: 100% !important;
-max-width: 100% !important;
-}
-
-@media(max-width: 768px){
-#app > div.app-inner.flex.flex-col.min-h-full.overflow-x-hidden > section.concept-text-with-photo.my-5.block.block{
-margin-top: 6rem !important;
-position: relative !important;
-}
-.concept-text-with-photo.my-5.block.block > div > div > div.flex.justify-center.items-center.text-center.flex-col.gap-2.w-full.h-full {
-position: absolute !important;
-top: 25% !important;
-left: 0 !important;
-width: 100% !important;
-transform: translateY(-50%) !important;
-}
-}
-
 .concept-store-footer.store-footer,
 .concept-store-footer .store-footer__inner,
 .concept-store-footer .py-4.text-center {
-  background-color: #FBF6EF !important;
+	background-color: #fbf6ef !important;
 }
 
 .concept-store-footer,
@@ -57,144 +11,182 @@ transform: translateY(-50%) !important;
 .concept-store-footer a,
 .concept-store-footer span,
 .concept-store-footer .copyright-text {
-  color: #4a4a4a !important;
+	color: #4a4a4a !important;
+}
+
+.concept-store-footer .store-footer__inner .s-contacts-icon {
+	margin: auto !important;
 }
 
 .concept-store-footer salla-trust-badges,
 .concept-store-footer h3 {
-  display: none !important;
+	display: none !important;
 }
 
 .concept-store-footer salla-social {
-  order: 1;
-  width: 100%;
+	order: 1;
+	width: 100%;
 }
 
 .concept-store-footer .s-social-list {
-  display: flex !important;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 16px;
-  margin: 10px 0 6px;
-  padding: 0;
+	display: flex !important;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 16px;
+	margin: 10px 0 6px;
+	padding: 0;
 }
 
 .concept-store-footer salla-contacts {
-  display: block !important;
-  width: 100%;
-  order: 1;
+	display: block !important;
+	width: 100%;
+	order: 1;
 }
 
 .concept-store-footer .lg\:col-span-2:has(salla-contacts) {
-  order: 1 !important;
-  margin-top: -4px;
+	order: 1 !important;
+	margin-top: -4px;
 }
 
 .concept-store-footer .s-contacts-list-vertical {
-  display: flex !important;
-  flex-direction: row !important;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 16px;
-  margin: 0 0 20px;
-  padding: 0;
+	display: flex !important;
+	flex-direction: row !important;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 16px;
+	margin: 0 0 20px;
+	padding: 0;
 }
 
 .concept-store-footer .s-contacts-item {
-  display: flex !important;
-  align-items: center;
-  justify-content: center;
+	display: flex !important;
+	align-items: center;
+	justify-content: center;
 }
 
 .concept-store-footer .s-contacts-item[href^="https://wa.me"],
-.concept-store-footer .s-contacts-item[href^="https://api.whatsapp.com"] {
-  display: none !important;
+.concept-store-footer .s-contacts-item[href^="https://api.whatsapp.com"]
+{
+	display: none !important;
 }
 
 .concept-store-footer .s-contacts-item .unicode {
-  display: none !important;
+	display: none !important;
 }
 
 .concept-store-footer .s-contacts-icon svg {
-  width: 22px;
-  height: 22px;
+	width: 22px;
+	height: 22px;
 }
 
 .concept-store-footer .lg\:col-span-2 {
-  order: 2;
-  width: 100%;
-  max-width: 100%;
-  padding-left: 0 !important;
-  padding-right: 0 !important;
+	order: 2;
+	width: 100%;
+	max-width: 100%;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
 }
 
 .concept-store-footer .lg\:col-span-2:has(salla-menu) {
-  order: 2 !important;
+	order: 2 !important;
 }
 
 .concept-store-footer salla-menu,
 .concept-store-footer salla-menu > div,
 .concept-store-footer salla-menu > div > div {
-  display: block;
-  width: 100%;
+	display: block;
+	width: 100%;
 }
 
 .concept-store-footer .s-menu-footer-list {
-  display: flex !important;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  gap: 14px;
-  margin: 0 0 20px;
-  padding: 0 16px;
-  overflow-x: auto;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
+	display: flex !important;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	gap: 14px;
+	margin: 0 0 20px;
+	padding: 0 16px;
+	overflow-x: auto;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
 }
 
 .concept-store-footer .s-menu-footer-list::-webkit-scrollbar {
-  display: none;
+	display: none;
 }
 
 .concept-store-footer .s-menu-footer-list a {
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 1.4;
-  white-space: nowrap;
-  text-decoration: none;
-  flex-shrink: 0;
+	font-weight: 600;
+	font-size: 13px;
+	line-height: 1.4;
+	white-space: nowrap;
+	text-decoration: none;
+	flex-shrink: 0;
 }
 
 .concept-store-footer .s-menu-footer-item {
-  margin: 0 !important;
+	margin: 0 !important;
 }
 
 @media (min-width: 400px) {
-  .concept-store-footer .s-menu-footer-list {
-    gap: 20px;
-  }
-  .concept-store-footer .s-menu-footer-list a {
-    font-size: 14px;
-  }
+	.concept-store-footer .s-menu-footer-list {
+		gap: 20px;
+	}
+	.concept-store-footer .s-menu-footer-list a {
+		font-size: 14px;
+	}
 }
 
 @media (min-width: 640px) {
-  .concept-store-footer .s-menu-footer-list {
-    gap: 32px;
-    overflow-x: visible;
-  }
-  .concept-store-footer .s-menu-footer-list a {
-    font-size: 15px;
-  }
+	.concept-store-footer .s-menu-footer-list {
+		gap: 32px;
+		overflow-x: visible;
+	}
+	.concept-store-footer .s-menu-footer-list a {
+		font-size: 15px;
+	}
 }
 
 .concept-store-footer .grid.grid-col-1 {
-  display: flex !important;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 0 !important;
+	display: flex !important;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 0 !important;
+	margin: unset;
+	padding: unset;
+}
+
+.concept-store-footer p {
+	text-align: center;
+	font-size: 0.75rem;
+}
+
+.concept-store-footer .grid.grid-col-1 > div {
+	gap: unset !important;
+	padding: unset !important;
+}
+
+#app
+	> div.app-inner.flex.flex-col.min-h-full.overflow-x-hidden
+	> footer
+	> div.py-4.text-center {
+	padding-top: unset;
+}
+
+.concept-store-footer salla-payments .s-payments-list .s-payments-list-item {
+	height: 20px !important;
+	width: 30px !important;
+}
+
+.concept-store-footer h2 {
+	margin: 0 !important;
+	margin-top: 1rem !important;
+}
+
+footer.concept-store-footer.store-footer {
+	margin-top: unset !important;
 }
