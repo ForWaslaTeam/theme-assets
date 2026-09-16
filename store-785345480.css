@@ -1,0 +1,20 @@
+
+/* store-785345480.css */
+/* https://dirabrand.com/ */
+
+@media (max-width: 768px){
+#mainnav > div{
+padding: 0.9rem  0 !important;
+}
+#mainnav > div > div > div > div.flex.items-center.justify-end.gap-2 > a{
+position: absolute !important;
+right: 0.4rem !important;
+}
+#mainnav > div > div > div > div:nth-child(1) {
+position: absolute !important;
+right: 35% !important;
+top: -1rem !important;
+display: flex !important;
+}
+}
+
