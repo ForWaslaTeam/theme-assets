@@ -30,3 +30,15 @@ html[dir="ltr"] .copyright-text p::before {
  footer salla-social{
 	padding-bottom: 2rem !important;
 }}
+
+
+@media(max-width: 1023px ){
+.s-modal-wrapper:has(.s-rating-modal-wrapper),
+.s-modal:has(.s-rating-modal-wrapper) {
+  z-index: 99999 !important;
+}
+
+.s-modal-body.s-modal-custom:has(.s-rating-modal-wrapper) {
+  position: relative !important;
+  z-index: 99999 !important;
+}}
