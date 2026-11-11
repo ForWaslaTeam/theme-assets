@@ -17,3 +17,16 @@
 html[dir="ltr"] .copyright-text p::before {
     content: "All Rights Reserved | SMAAR LABEL ";
 }
+
+@media (max-width: 1023px) {
+  body.cart a[href^="https://wa.me/"] > button.whatsapp-icon {
+    bottom: 150px !important;
+  }
+}
+
+
+
+@media(max-width: 768px){
+ footer salla-social{
+	padding-bottom: 2rem !important;
+}}
