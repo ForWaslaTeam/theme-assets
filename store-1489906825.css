@@ -42,3 +42,23 @@ html[dir="ltr"] .copyright-text p::before {
   position: relative !important;
   z-index: 99999 !important;
 }}
+
+
+
+#mainnav salla-user-menu .s-user-menu-trigger,
+#mainnav salla-user-menu .s-user-menu-avatar-wrap,
+#mainnav salla-user-menu .s-user-menu-trigger-avatar {
+  background: transparent !important;
+  background-color: transparent !important;
+  box-shadow: none  !important;
+  
+}
+#mainnav salla-user-menu .s-user-menu-trigger-avatar[src*="avatar_female"] {
+  content: url("https://cdn.files.salla.network/other/1378927591/beaa0bdd-8c27-4ea1-8581-79a48f53ff25-standard.png");
+  background: transparent !important;
+}
+
+#mainnav salla-user-menu .s-user-menu-trigger-avatar[src*="avatar_male"] {
+  content: url("https://cdn.files.salla.network/other/1378927591/3bb72551-7000-4b65-a315-d8afd779e82c-standard.png");
+  background: transparent !important;
+}
