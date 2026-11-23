@@ -1,0 +1,4 @@
+.primo-categories-slider__btn:hover .primo-categories-slider__btn-label,
+.primo-categories-slider__btn:focus-visible .primo-categories-slider__btn-label {
+  color: #fff !important ;
+}
