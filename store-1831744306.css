@@ -2,3 +2,38 @@
 .primo-categories-slider__btn:focus-visible .primo-categories-slider__btn-label {
   color: #fff !important ;
 }
+
+custom-salla-product-card.primo-card {
+  --primo-border-width: 1px;
+  display: block;
+  border: var(--primo-border-width) solid var(--color-primary);
+  border-radius: 12px;
+  overflow: hidden;
+  box-sizing: border-box;
+  transition: box-shadow .25s ease, border-color .25s ease;
+}
+
+@media (hover: hover) {
+  custom-salla-product-card.primo-card:hover {
+    box-shadow: 0 6px 18px rgba(30, 42, 90, .15);
+  }
+}
+
+custom-salla-product-card.primo-card .primo-card__info {
+  padding-inline: 12px;
+  padding-block-end: 12px;
+  box-sizing: border-box;
+}
+
+custom-salla-product-card.primo-card .primo-card__footer {
+  margin: 0;
+  padding: 0;
+}
+
+custom-salla-product-card.primo-card .primo-card__add {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
